@@ -1,0 +1,18 @@
+{
+  "name": "linkup",
+  "displayName": "Linkup",
+  "description": "AI-powered web search, content extraction, and deep research powered by Linkup CLI",
+  "version": "1.0.0",
+  "author": "Linkup",
+  "license": "MIT",
+  "keywords": [
+    "web-search",
+    "ai-search",
+    "content-extraction",
+    "deep-research",
+    "data-enrichment",
+    "linkup"
+  ],
+  "repository": "https://github.com/linkup-api/linkup-cursor-plugin",
+  "homepage": "https://linkup.so"
+}

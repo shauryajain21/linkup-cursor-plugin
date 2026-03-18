@@ -1,0 +1,52 @@
+---
+name: linkup-citations
+description: Standards for citing sources from Linkup search results
+globs:
+  - "**/*"
+---
+
+# Linkup Citation Standards
+
+When presenting results from Linkup searches, follow these citation guidelines:
+
+## Always Cite Sources
+
+- Include source URLs for factual claims
+- Use markdown links: `[Source Name](url)`
+- Group related information by source
+
+## Citation Format
+
+For inline citations:
+```
+According to [TechCrunch](https://techcrunch.com/...), the company raised $50M.
+```
+
+For multiple sources:
+```
+**Sources:**
+- [Source 1](url1) - Key finding
+- [Source 2](url2) - Supporting data
+```
+
+## Best Practices
+
+1. **Be transparent** - Indicate when information comes from web search
+2. **Include dates** - Note when the source was published if relevant
+3. **Verify claims** - Cross-reference important facts across sources
+4. **Acknowledge limitations** - Note if information may be outdated
+
+## Example Output
+
+```markdown
+## Research Results
+
+The company was founded in 2020 and has raised $100M to date ([Crunchbase](https://crunchbase.com/...)).
+
+Their main product focuses on AI-powered search, competing with established players in the market ([TechCrunch](https://techcrunch.com/...)).
+
+**Sources:**
+- [Crunchbase](url) - Company profile and funding
+- [TechCrunch](url) - Product analysis
+- [Company Blog](url) - Official announcements
+```
